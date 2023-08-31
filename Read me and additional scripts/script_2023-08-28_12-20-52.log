@@ -1,0 +1,47 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\config\script_2023-08-28_12-20-52.log started at 28.08. 12:20:52
+
+SCRIPT       : Registered 340 temporary action enum(s), UAN==340
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT       : VPPNotificationManager()
+SCRIPT       : [VPPAT] Internal VPPNotifications module loaded!
+SCRIPT       : [DayZ Game]:: DayZGame(): Initializing V++ Admin Tools.
+SCRIPT       : Default Mission: $saves:VPPDebugMissions/Debug.chernarusplus exists!
+SCRIPT       : Default Mission: $saves:VPPDebugMissions/Debug.enoch exists!
+SCRIPT    (W): @"VPPAdminTools/4_World/vppadmintools\plugins\pluginbase\webhooksmanager\classes\webhookmessagebase.c,53": Possible variable name conflict 'title'
+SCRIPT    (W): @"VPPAdminTools/4_World/vppadmintools\plugins\pluginbase\webhooksmanager\classes\webhookmessagebase.c,53": Possible variable name conflict 'color'
+SCRIPT    (W): @"VPPAdminTools/4_World/vppadmintools\plugins\pluginbase\webhooksmanager\classes\messagetypes\joinleavemessage.c,7": Possible variable name conflict 'guid'
+SCRIPT    (W): @"VPPAdminTools/4_World/vppadmintools\plugins\pluginbase\webhooksmanager\classes\messagetypes\joinleavemessage.c,7": Possible variable name conflict 'details'
+SCRIPT    (W): @"VPPAdminTools/4_World/vppadmintools\plugins\pluginbase\admintools\admintools.c,60": No need to use 'Cast' for up-casting
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,67": Can't find variable 'Gpu1'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,68": Can't find variable 'Gpu2'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,69": Can't find variable 'Gpu3'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,70": Can't find variable 'Gpu4'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,71": Can't find variable 'Gpu5'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,72": Can't find variable 'Gpu6'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,73": Can't find variable 'Gpu7'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,74": Can't find variable 'Gpu8'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,75": Can't find variable 'Gpu9'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,76": Can't find variable 'Gpu10'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,78": Can't find variable 'bitcoin'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,82": Can't find variable 'Gpu1'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,84": Can't find variable 'bitcoin'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,91": Undefined function 'land_mm_mining_rig.GetSlotIdFromName'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,101": Not enough parameters in function 'GetCurrentInventoryLocation'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,103": Only NULL assignment is allowed
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,103": Cannot convert 'int' to 'EntityAI' for argument '0' to method 'SetAttachment'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,103": Not enough parameters in function 'SetAttachment'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,104": Types 'EntityAI' and 'InventoryLocation' are unrelated
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,104": Cannot convert 'EntityAI' to 'InventoryLocation' for argument '1' to method 'LocationSyncMoveEntity'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,133": Undefined function 'land_mm_mining_rig.FindAttachmentBySlotname'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,133": Not enough parameters in function 'Cast'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,146": Can't find variable 'm_PowerGenerator'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,154": Undefined function 'land_mm_mining_rig.FindAttachmentBySlotname'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,172": Cannot convert 'ItemBase' to 'int' for argument '0' to method 'TakeEntityAsAttachmentEx'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,172": Incompatible parameter 'bitcoin'
+SCRIPT    (E): @"mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c,172": Not enough parameters in function 'TakeEntityAsAttachmentEx'
+SCRIPT    (E): Can't compile "World" script module!
+
+mm_mining_rig/scripts/4_World/entities\itembase\mm_mining_rig\land_mm_mining_rig.c(67): Can't find variable 'Gpu1'
+SCRIPT    (E): Failed to load entities script!
+SCRIPT       : ~DayZGame()
